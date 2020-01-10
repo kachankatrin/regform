@@ -1,0 +1,64 @@
+.wrapper {
+  max-width: 1900px;
+  border-radius: 20px;
+  display: flex;
+  margin: auto;
+  height: 110.7rem;
+  overflow: hidden;
+}
+::placeholder {
+  color: rgb(100, 100, 100);
+  font-weight: 600;
+  font-size: 2.5rem;
+
+}
+select {
+  -webkit-appearance: none;
+  border: none;
+  background-position: calc(100% - 0.1rem) 50%;
+  border-radius: 0px;
+  border-bottom: 1px solid rgb(166, 166, 166);
+  color: rgb(100, 100, 100);
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  background-image: url("../img/Angle16px\(1\).png");
+  background-repeat: no-repeat;
+  width: 44%;
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  
+}
+input[type="date"] {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  color: rgb(100, 100, 100);
+  font-weight: 600;
+  
+
+}
+::-webkit-calendar-picker-indicator {opacity: 0;}
+
+input[type="date"]::before { 
+	content: attr(data-placeholder);
+	width: 100%;
+}
+input[type="date"]:focus::before,
+input[type="date"]:valid::before { display: none}
+
+.ti-calendar {
+  font-size: 2rem;
+  color: rgb(166, 166, 166);
+}
+#fc {
+  width: 100%;
+  margin-bottom: 7.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+input {
+  border: none;
+  border-bottom: 1px solid rgb(166, 166, 166);
+  width: 50rem;
+  
+}
